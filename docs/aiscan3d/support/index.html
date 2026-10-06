@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="AI Scan 3D support for LiDAR compatibility, camera permission, saved scans, CAD references and exports.">
+  <title>AI Scan 3D — Support</title>
+  <link rel="canonical" href="https://mitre88.github.io/app-support-pages/aiscan3d/support/">
+  <link rel="stylesheet" href="../../style.css">
+  <style>
+    :root { color-scheme: dark; --paper: #101010; --ink: #f7f5f1; --muted: #b9b6b1; --accent: #ffa25a; --line: #393530; }
+    body { overflow-wrap: anywhere; }
+    a { text-underline-offset: .2em; }
+    a:focus-visible { outline: 2px solid var(--accent); outline-offset: 5px; border-radius: 2px; }
+    .summary { padding: 18px 20px; border-left: 3px solid var(--accent); background: #211b16; }
+    nav a { padding: 6px 0; }
+    @media (max-width: 480px) { main { padding-top: 42px; } h1 { font-size: 44px; } }
+    @media print { :root { color-scheme: light; --paper: #fff; --ink: #000; --muted: #333; --accent: #843600; --line: #aaa; } .summary { background: transparent; } main { width: 100%; padding: 0; } }
+  </style>
+</head>
+<body>
+<main id="main">
+  <header>
+    <p class="eyebrow">AI Scan 3D · LiDAR scanning</p>
+    <h1>Support</h1>
+    <p class="updated">Last updated: <time datetime="2026-10-05">October 5, 2026</time></p>
+    <nav aria-label="AI Scan 3D pages">
+      <a href="../privacy/">Privacy policy</a>
+      <a href="https://apps.apple.com/app/id6762030292">View on the App Store</a>
+    </nav>
+  </header>
+  <p class="summary">Help with LiDAR capture, saved scans and exports. For support, email <a href="mailto:bedr10_capacitacion@hotmail.com?subject=AI%20Scan%203D%20support">bedr10_capacitacion@hotmail.com</a>.</p>
+  <p>Include your device model, iOS or iPadOS version, AI Scan 3D version and a short description of what happened. An error message or the steps that led to it are useful. You do not need to attach a scan to start a support request.</p>
+
+  <section aria-labelledby="devices">
+    <h2 id="devices">Compatible devices</h2>
+    <p>The app requires iOS or iPadOS 17 or later. Live scanning also requires a LiDAR Scanner and ARKit scene-reconstruction support.</p>
+    <ul>
+      <li>iPhone 12 Pro, iPhone 12 Pro Max and later iPhone Pro or Pro Max models equipped with LiDAR.</li>
+      <li>iPad Pro 11-inch (2nd generation, 2020) or later LiDAR-equipped models; iPad Pro 12.9-inch (4th generation, 2020) or later LiDAR-equipped models; and LiDAR-equipped iPad Pro 13-inch models.</li>
+    </ul>
+    <p>A newer device is not automatically compatible: standard iPhone, iPad, iPad Air and iPad mini models without LiDAR cannot perform live scans. The app checks the device’s capability and shows “LiDAR Not Available” when scanning is unsupported. Confirm the LiDAR specification for your exact model on <a href="https://www.apple.com/iphone/compare/">Apple’s iPhone comparison</a> or <a href="https://www.apple.com/ipad/compare/">iPad comparison</a>.</p>
+  </section>
+
+  <section aria-labelledby="camera">
+    <h2 id="camera">Camera permission or scanning will not start</h2>
+    <p>Open the device’s Settings app, find AI Scan 3D and enable Camera. You can also review camera access under Privacy &amp; Security. Return to the app and try a new scan. Camera permission cannot add LiDAR capability to an unsupported device.</p>
+    <p>If scanning stops or a scan cannot be saved, read the displayed error and check available device storage. Keep the app active while capturing and saving. If the device is hot, let it cool before starting another capture.</p>
+  </section>
+
+  <section aria-labelledby="quality">
+    <h2 id="quality">Improve a scan</h2>
+    <p>Use steady lighting, move slowly and cover the object from several angles. Keep the target visible and follow the app’s distance guidance. Shiny, transparent or very dark surfaces and moving subjects can produce incomplete geometry. Object mode is suited to individual items; Room mode keeps more surrounding context.</p>
+    <p>AI Scan 3D creates a mesh reference. CAD dimensions are approximate axis-aligned bounds, not manufacturing tolerances. Confirm critical dimensions independently before fabrication. A CAD profile is a JSON analysis of the scan; it is not a STEP file or a precision reconstruction of an engineered part.</p>
+  </section>
+
+  <section aria-labelledby="export">
+    <h2 id="export">Export and share</h2>
+    <p>Open a saved scan to view it and choose an export format. Available outputs include OBJ, STL, PLY and a CAD profile in JSON. USDZ export is available when the scan was saved as USDZ; if it was saved in a fallback format, choose OBJ, STL or PLY. A generated model-preview video can also be shared when available.</p>
+    <p>Use the system share sheet to save a copy to Files or send it to a destination you choose. Exporting does not automatically upload the file. If another app cannot open an export, confirm that it supports the chosen format and units. STL does not preserve color, and imported appearance can differ between viewers.</p>
+    <p>If an export fails, keep the original scan, check available storage and try a supported alternate format. Contact support with the format and error message if the problem continues.</p>
+  </section>
+
+  <section aria-labelledby="library">
+    <h2 id="library">Saved scans and reminders</h2>
+    <p>Your scan library is stored locally. Export important scans before deleting the app or changing devices. Deleting a scan in the app does not remove copies you already saved or shared elsewhere.</p>
+    <p>For reminders, check Daily Reminders in the app’s Settings and notification permission in the device’s Settings app. Reminders are optional and use local notifications.</p>
+  </section>
+
+  <section aria-labelledby="privacy">
+    <h2 id="privacy">Privacy</h2>
+    <p>Scanning, CAD analysis and export preparation run on the device. AI Scan 3D does not upload scans to a remote AI service and has no app account or subscription. Read the <a href="../privacy/">privacy policy</a> for local storage, sharing, web hosting and optional support-email details.</p>
+  </section>
+  <footer>
+    <p>AI Scan 3D · Alejandro Hernandez Mitre / NEXTECH.IA</p>
+    <p><a href="mailto:bedr10_capacitacion@hotmail.com?subject=AI%20Scan%203D%20support">bedr10_capacitacion@hotmail.com</a></p>
+    <p><a href="../privacy/">AI Scan 3D privacy policy</a> · <a href="https://mitre88.github.io/app-support-pages/">All app support pages</a></p>
+  </footer>
+</main>
+</body>
+</html>
